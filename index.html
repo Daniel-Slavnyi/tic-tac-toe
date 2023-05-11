@@ -16,19 +16,7 @@
   <body>
     <div class="wrapper">
       <div class="container">
-        <button type="button" class="option">
-          <svg class="circle">
-            <circle
-              r="30"
-              cx="50%"
-              cy="50%"
-              stroke="blue"
-              stroke-width="10px"
-              fill="none"
-              stroke-linecap="round"
-            />
-          </svg>
-        </button>
+        <button type="button" class="option"></button>
         <button type="button" class="option"></button>
         <button type="button" class="option"></button>
         <button type="button" class="option"></button>
@@ -38,8 +26,13 @@
         <button type="button" class="option"></button>
         <button type="button" class="option"></button>
       </div>
+      <button class="restart">Restart</button>
     </div>
 
+    <div class="popup hide">
+      <p class="message">Welcome to game</p>
+      <button type="button" class="new-game">New game</button>
+    </div>
     <script src="./index.js"></script>
   </body>
 </html>
