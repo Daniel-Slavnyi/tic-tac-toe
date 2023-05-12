@@ -4,7 +4,7 @@ import { winningCombinations, results } from "./win-combination.js";
 const area = document.querySelector(".container");
 const fields = document.querySelectorAll(".option");
 const restart = document.querySelector(".restart");
-const btnNewGame = document.querySelector(".new-game");
+const btnNewGame = document.querySelector(".newgame");
 const popup = document.querySelector(".popup");
 const result = document.querySelector(".result");
 const message = document.querySelector(".message");
