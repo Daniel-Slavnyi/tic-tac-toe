@@ -52,7 +52,7 @@ function newGame() {
     item.innerHTML = "";
     item.classList.remove("x", "o", "winner");
   });
-
+  console.log("test function");
   result.innerHTML = "";
   popup.classList.add("hide");
   area.addEventListener("click", initGame);
