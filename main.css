@@ -50,6 +50,14 @@ body {
   height: 70vmin;
 }
 
+.result {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 3em;
+
+  color: white;
+}
+
 .option {
   background: white;
   width: 22vmin;
@@ -76,14 +84,14 @@ body {
   stroke-dasharray: 122;
   stroke-dashoffset: 122;
 
-  animation: draw 0.5s forwards;
+  animation: draw 0.3s forwards;
 }
 
 .second-line {
   stroke-dasharray: 122;
   stroke-dashoffset: 122;
 
-  animation: draw 0.5s 0.5s forwards;
+  animation: draw 0.3s 0.5s forwards;
 }
 
 .cross {
